@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1204" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,6 +246,76 @@
         </mxCell>
         <mxCell id="55" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="235" y="1624" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-56" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="86" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-58" value="original English page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="24" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iTr_idcqLjse5-7REgVE-60" target="iTr_idcqLjse5-7REgVE-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-60" value="translate strategy" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="945" y="810" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-62" value="judge percentage&amp;nbsp;&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="795" y="991" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-64" value="auto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="908" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-65" value="never translate&lt;br&gt;&amp;nbsp;all" style="shape=parallelogram;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;whiteSpace=wrap;labelBackgroundColor=none;textShadow=0;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="979" y="983" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-66" value="" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="983" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iTr_idcqLjse5-7REgVE-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="325" as="targetPoint" />
+            <mxPoint x="1140" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iTr_idcqLjse5-7REgVE-67" target="iTr_idcqLjse5-7REgVE-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-67" value="page translate strategy" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="170" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-68" value="original&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="840" y="326" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-70" value="Never" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="243" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iTr_idcqLjse5-7REgVE-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iTr_idcqLjse5-7REgVE-74" target="iTr_idcqLjse5-7REgVE-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-74" value="translated" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="840" y="455" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-75" value="click translate&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="408.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-76" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="575" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-78" value="translated&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="326" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-80" value="Always" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iTr_idcqLjse5-7REgVE-81" value="translating&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="280" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
